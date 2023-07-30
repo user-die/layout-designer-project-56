@@ -70,6 +70,9 @@ p {
 }
 
 /* First Section */
+.margin13 {
+  margin-top: 13px;
+}
 
 header {
   background: url(images/banner.png) lightgray 50%;
