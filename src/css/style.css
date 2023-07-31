@@ -640,8 +640,8 @@ nav {
   .margin16 {
     margin-bottom: 16px;
   }
-  mt-27px {
-    margin-top: 0;
+  .mt-72px {
+    margin-top: 45px;
 }
 
 /* Artist page*/
@@ -966,11 +966,7 @@ nav {
 }
 
 .mt-72px {
-  margin-top: 45px;
-}
-
-.mt-27px {
-  margin-top: 27px;
+  margin-top: 72px;
 }
 
 .mt-78px {
