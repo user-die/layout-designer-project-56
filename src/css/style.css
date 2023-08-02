@@ -104,6 +104,7 @@ body {
     color: #cacaca;
     font-size: 11px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .colorfff {
@@ -142,6 +143,9 @@ body {
     .flex2 {
         margin-bottom: 17px;
     }  
+    .search {
+        width: 374px;
+    }
 }
 /*page-description*/
 
