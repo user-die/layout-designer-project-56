@@ -379,12 +379,11 @@ body {
     font-weight: bold;
 }
 
-.width138px {
-    max-width: 138px;
-}
-
 @media (max-width: 414px) {
     .image2 {
         height: 137px;
+    }
+    .width138px {
+        max-width: 138px;
     }
 }
