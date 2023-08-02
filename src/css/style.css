@@ -40,7 +40,8 @@ p {
 }
 
 body {
-    margin: 0;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 @media (max-width: 414px) {
@@ -109,6 +110,9 @@ body {
     top: 25px;
     left: 119px;
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .a {
@@ -147,6 +151,7 @@ body {
     .flex1 {
         flex-direction: column;
         left: 20px;
+        align-items: flex-start;
     }
     .mmr-451 {
         margin-bottom: 18px;
@@ -259,7 +264,7 @@ body {
 
 /*Artist. First section*/
 .section6 {
-    padding: 250px 0 223px 120px;
+    padding: 250px 20px 223px 20px;
     background-image: url(../images/Morten\ Harket.png);
     background-position: center;
     background-size: cover;
@@ -299,9 +304,7 @@ body {
 
 /* Popular tracks */
 .section7 {
-    max-width: 1200px;
     padding: 100px 20px 0 20px;
-    margin: 0 auto;
 }
 
 .popular-track {
@@ -356,3 +359,32 @@ body {
 }
 
 /*Discography */
+.gap {
+    gap: 25px 50px;
+}
+
+.mt-18 {
+    margin-top: 18px;
+}
+
+.fs18 {
+    font-size: 18px;
+}
+
+.fs16 {
+    font-size: 16px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.width138px {
+    max-width: 138px;
+}
+
+@media (max-width: 414px) {
+    .image2 {
+        height: 137px;
+    }
+}
