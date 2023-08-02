@@ -340,6 +340,10 @@ body {
     margin-bottom: 48px;
 }
 
+.colore0e0e0 {
+    color: #e0e0e0;
+}
+
 @media (max-width: 414px) {
     .section7 {
         padding: 100px 20px 0 20px;
