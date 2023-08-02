@@ -95,6 +95,14 @@ body {
     margin-bottom: 200px;
 }
 
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mb-48 {
+    margin-bottom: 48px;
+}
+
 /*Header*/
 .flex1 {
     position: absolute;
@@ -244,4 +252,47 @@ body {
     background: url(../images/subscribe_1.png);
     background-repeat: no-repeat;
     background-size: 368.197px;
+}
+
+
+
+
+/*Artist. First section*/
+.section6 {
+    padding: 250px 0 223px 120px;
+    background-image: url(../images/Morten\ Harket.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.btn {
+    width: 200px;
+    height: 62px;
+    padding: 20px 30px;
+    font-size: 12.8px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+}
+
+.purple {
+    background-color: #5328A1;
+}
+
+.red {
+    background-color: #95390C;
+}
+
+.mlrem {
+    margin-left: 1.5rem;
+}
+
+@media (max-width: 414px) {
+    .section6 {
+        padding: 225px 0 224px 20px;
+    }
+    .mlrem {
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
 }
