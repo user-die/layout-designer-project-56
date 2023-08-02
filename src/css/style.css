@@ -314,11 +314,12 @@ body {
 }
 
 .h3 {
+    font-size: 12.8px;
     line-height: 19.2px;
     font-weight: bold;
     text-transform: uppercase;
     color: var(--white);
-    width: 125px;
+    width: 135px;
 }
 
 .flex3 {
@@ -331,7 +332,11 @@ body {
 }
 
 .mr331 {
-    margin-right: 331px;
+    margin-right: 321px;
+}
+
+.mb48 {
+    margin-bottom: 48px;
 }
 
 @media (max-width: 414px) {
@@ -339,6 +344,6 @@ body {
         padding: 100px 20px 0 20px;
     }
     .mr331 {
-        margin-right: 154px;
+        margin-right: 144px;
     }
 }
