@@ -133,7 +133,6 @@ body {
 @media (max-width:414px) {
     .flex1 {
         flex-direction: column;
-        top: 27px;
         left: 20px;
     }
     .mmr-451 {
