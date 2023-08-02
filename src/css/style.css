@@ -135,7 +135,6 @@ body {
     .flex1 {
         flex-direction: column;
         left: 20px;
-        top: 27px;
     }
     .mmr-451 {
         margin-bottom: 18px;
@@ -180,6 +179,7 @@ body {
 
 .input::placeholder {
     color: var(--white);
+    font-weight: bold;
 }
 
 .button1 {
