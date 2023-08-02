@@ -299,14 +299,14 @@ body {
 
 /* Popular tracks */
 .section7 {
-    padding: 100px 0 0 120px;
+    padding: 100px 169px 0 120px;
 }
 
 .popular-track {
     display: flex;
     font-size: 12.8px;
     flex-wrap: wrap;
-    gap: 25px 50px;
+    gap: 25px 49px;
 }
 
 .image1 {
@@ -325,6 +325,7 @@ body {
 .flex3 {
     display: flex;
     align-items: center;
+    width: 551px;
 }
 
 .ml15 {
