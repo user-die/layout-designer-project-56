@@ -40,6 +40,10 @@ p {
 }
 
 body {
+    margin: 0;
+}
+
+.div {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -264,7 +268,7 @@ body {
 
 /*Artist. First section*/
 .section6 {
-    padding: 250px 20px 223px 20px;
+    padding: 250px 120px 223px 120px;
     background-image: url(../images/Morten\ Harket.png);
     background-position: center;
     background-size: cover;
