@@ -84,10 +84,6 @@ body {
     margin-right: 24px;
 }
 
-.mmr-451 {
-    margin-right: 451px;
-}
-
 .mr-90 {
     margin-right: 90px;
 }
@@ -116,7 +112,10 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
+}
+
+.flex5 {
+    display: flex;
 }
 
 .a {
@@ -139,6 +138,10 @@ body {
     display: flex;
     align-items: center;
 }
+
+.mmr-451 {
+    margin-right: 31.31944444444444vw;
+} 
 
 .search {
     background: #3C3B3D;
@@ -172,6 +175,9 @@ body {
     }
     .mmr-24 {
         margin-bottom: 3px;
+    }
+    .flex5 {
+        flex-direction: column;
     }
 }
 /*page-description*/
