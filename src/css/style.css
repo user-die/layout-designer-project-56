@@ -357,10 +357,6 @@ body {
     margin-top: 40px;
 }
 
-.height598 {
-    height: 598px;
-}
-
 @media (max-width: 414px) {
     .button2 {
         width: 326px;
@@ -383,6 +379,9 @@ body {
     }
     .section3 {
         padding: 99px 20px 0 20px;
+    }
+    .height598 {
+        height: 598px;
     }
 }
 
