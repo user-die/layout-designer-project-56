@@ -250,6 +250,10 @@ body {
     padding: 100px 20px 0 20px;
 }
 
+.section3 {
+    padding: 96px 20px 0 20px;
+}
+
 .cards {
     display: flex;
     gap: 0 50px;
@@ -268,7 +272,7 @@ body {
 }
 
 .mb-45 {
-    margin-bottom: 45px;
+    margin-bottom: 47px;
 }
 
 .mt-64 {
