@@ -383,6 +383,9 @@ body {
     .height598 {
         height: 598px;
     }
+    .mt-24 {
+        margin-top: 16px;
+    }
 }
 
 /*News section*/
