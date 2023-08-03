@@ -393,7 +393,8 @@ body {
         margin-top: 15px;
     }
     .mt-42 {
-        margin-top: 40px;
+        margin-top: 39px;
+        margin-bottom: 1;
     }
     .height596 {
         height: 596px;
