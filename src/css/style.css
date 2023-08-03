@@ -259,6 +259,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 623px;
     width: 366.66px;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -267,7 +268,7 @@ body {
 }
 
 .mb-45 {
-    margin-bottom: 45px;
+    margin-bottom: 47px;
 }
 
 .mt-64 {
@@ -362,7 +363,7 @@ body {
         margin-top: 40px;
     }
     .card {
-        height: 593px;
+        height: 598px;
     }
     .mb-45 {
         margin-bottom: 46px;
