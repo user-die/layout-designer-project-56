@@ -343,6 +343,14 @@ body {
     text-transform: uppercase;
 }
 
+.mt-43 {
+    margin-top: 43px;
+}
+
+.height64 {
+    height: 64px;
+}
+
 @media (max-width: 414px) {
     .button2 {
         width: 326px;
@@ -357,6 +365,9 @@ body {
     }
     .h3-card {
         font-size: 16px;
+    }
+    .mt-43 {
+        margin-top: 40px;
     }
 }
 
