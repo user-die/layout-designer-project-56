@@ -186,6 +186,9 @@ body {
     .mb-200 {
         margin-bottom: 199px;
     }
+    .mt-1 {
+        margin-top: 2px;
+    }
 }
 /*page-description*/
 
