@@ -44,7 +44,7 @@ body {
 }
 
 .div {
-    max-width: 1200px;
+    max-width: 1240px;
     margin: 0 auto;
 }
 
@@ -252,7 +252,7 @@ body {
 
 .cards {
     display: flex;
-    gap: 0 45px;
+    gap: 0 50px;
 }
 
 .card {
