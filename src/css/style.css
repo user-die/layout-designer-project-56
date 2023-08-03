@@ -488,6 +488,10 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .mfs16 {
+    font-size: 16px;
+    margin-top: 50px;
+  }
 }
   
 
