@@ -252,7 +252,7 @@ body {
 
 .cards {
     display: flex;
-    gap: 0 46.8px;
+    gap: 0 50px;
 }
 
 .card {
@@ -347,10 +347,6 @@ body {
     margin-top: 43px;
 }
 
-.height64 {
-    height: 64px;
-}
-
 @media (max-width: 414px) {
     .button2 {
         width: 326px;
@@ -364,6 +360,12 @@ body {
     }
     .mt-43 {
         margin-top: 40px;
+    }
+    .card {
+        height: 598px;
+    }
+    .mb-45 {
+        margin-bottom: 46px;
     }
 }
 
