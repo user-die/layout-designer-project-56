@@ -493,6 +493,38 @@ body {
     margin-top: 50px;
   }
 }
+
+/* Mobile section */
+
+.mobileflex {
+    display: flex;
+}
+
+.mobile-button {
+    width: 131px;
+    height: 53px;
+    background-color: #95390C;
+    border-radius: 32px;
+    font-size: 12.8px;
+    border: none;
+    padding: 17px 40px;
+    color: var(--white);
+}
+
+.mobile-p {
+    width: 600px;
+    height: 112px;
+}
+
+@media (max-width: 414px) {
+    .mobileflex {
+        flex-direction: column-reverse;
+    }
+    .mobile-p {
+        width: 374px;
+        height: 184px;
+    }
+}
   
 
 /*Artist. First section*/
