@@ -386,6 +386,12 @@ body {
     .width138px {
         max-width: 138px;
     }
+    .height206 {
+        height: 206px;
+    }
+    .height233 {
+        height: 233px;
+    }
 }
 
 /* Similar section */
