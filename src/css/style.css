@@ -407,3 +407,7 @@ body {
         max-width: 137px;
     }
 }
+
+.mb-100 {
+    margin-bottom: 100px;
+}
