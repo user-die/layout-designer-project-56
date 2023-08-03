@@ -183,6 +183,9 @@ body {
     .flex5 {
         flex-direction: column;
     }
+    .mb-200 {
+        margin-bottom: 199px;
+    }
 }
 /*page-description*/
 
