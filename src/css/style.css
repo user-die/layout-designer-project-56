@@ -417,6 +417,10 @@ body {
     column-gap: 50px;
 }
 
+.block-item {
+    flex: 1 1;
+}
+
 .margin4 {
     margin: 48px 0 65px 0;
 }
