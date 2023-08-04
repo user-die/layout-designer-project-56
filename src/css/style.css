@@ -541,6 +541,7 @@ body {
 }
 
 .mobile-p {
+    font-size: 15px;
     width: 600px;
     margin-right: 144px;
     letter-spacing: -0.001px;
