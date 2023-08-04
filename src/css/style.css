@@ -253,6 +253,9 @@ body {
     .mb-17 {
         margin-bottom: 16px;
     }
+    .mmr-24 {
+        margin-right: 0;
+    }
 }
 
 /*Pricing*/
@@ -464,6 +467,7 @@ body {
     border-radius: 5px;
     background-color: transparent;
     color: #cacaca;
+    text-transform: uppercase;
 }
 
 .colorcacaca {
