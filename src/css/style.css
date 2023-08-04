@@ -508,8 +508,11 @@ body {
   .width375 {
     width: 375px;
   }
-  .fw400 {
+  .fw300 {
     font-weight: 300;
+  }
+  .fw400 {
+    font-weight: 400;
   }
   .section4 {
     padding: 99px 20px 0 20px;
