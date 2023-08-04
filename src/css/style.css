@@ -403,6 +403,10 @@ body {
 }
 
 /*News section*/
+.section4 {
+    padding: 100px 20px 0 20px;
+}
+
 
 .columns {
     height: 286px;
@@ -496,6 +500,9 @@ body {
   .mt-1 {
     margin-top: 1px;
   }
+  .section4 {
+    padding: 99px 20px 0 20px;
+}
 }
 
 /* Mobile section */
