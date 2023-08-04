@@ -534,6 +534,7 @@ body {
     border: none;
     padding: 16px 40px;
     color: var(--white);
+    line-height: 12.8px;
 }
 
 .mobile-p {
