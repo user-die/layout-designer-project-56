@@ -501,6 +501,9 @@ body {
   .mt-1 {
     margin-top: 1px;
   }
+  .width375 {
+    width: 375px;
+  }
   .section4 {
     padding: 99px 20px 0 20px;
 }
