@@ -1,0 +1,67 @@
+
+$margin-top: (0 3 16 17 18 24 31 64) ;
+@mixin margin-t ($margin-top) {
+    @each $mt in $margin-top {
+        .mt-#{$mt} {
+            margin-top: $mt + px;
+        }
+    }
+}
+@include margin-t ($margin-top);
+
+
+$margin-left: (15 ) ;
+@mixin margin-l ($margin-left) {
+    @each $ml in $margin-left {
+        .ml-#{$ml} {
+            margin-left: $ml + px;
+        }
+    }
+}
+@include margin-l ($margin-left);
+
+$margin-right: (16 24 90) ;
+@mixin margin-r ($margin-right) {
+    @each $mr in $margin-right {
+        .mr-#{$mr} {
+            margin-right: $mr + px;
+        }
+    }
+}
+@include margin-r ($margin-right);
+
+$margin-bottom: (0 1 17 42 48 51 64 100 200) ;
+@mixin margin-b ($margin-bottom) {
+    @each $mb in $margin-bottom {
+        .mb-#{$mb} {
+            margin-bottom: $mb + px;
+        }
+    }
+}
+@include margin-b ($margin-bottom);
+
+/* Margins for media */
+
+$media-margin-top: (0 15 16) ;
+@mixin media-margin-t ($media-margin-top) {
+    @each $mmt in $media-margin-top {
+        @media (max-width:414px) {
+            .mmt-#{$mmt} {
+                margin-top: $mmt + px;
+            }
+        }
+    }
+}
+@include media-margin-t ($media-margin-top);
+
+$media-margin-bottom: (0 3 16 17 49 199) ;
+@mixin media-margin-b ($media-margin-bottom) {
+    @each $mmb in $media-margin-bottom {
+        @media (max-width:414px) {
+            .mmt-#{$mmb} {
+                margin-bottom: $mmb + px;
+            }
+        }
+    }
+}
+@include media-margin-b ($media-margin-bottom);

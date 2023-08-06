@@ -1,0 +1,119 @@
+
+%flex-items-center {
+    display: flex;
+    align-items: center;
+}
+
+%flex-column {
+    flex-direction: column;
+}
+
+.flex1 {
+    @extend %flex-items-center;
+    position: absolute;
+    top: 25px;
+    left: 119px;
+    flex-wrap: wrap;
+}
+
+.flex7 {
+    @extend %flex-items-center;
+    height: 19px;
+}
+
+.flex2 {
+    @extend %flex-items-center;
+}
+
+.flex3 {
+    @extend %flex-items-center;
+    width: 551px;
+}
+
+.section1 {
+    @extend %flex-items-center;
+    @extend %flex-column;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    @extend %flex-items-center;
+    @extend %flex-column;
+    height: 616px;
+    width: 366.66px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+
+.flex6 {
+    height: 64px;
+
+    .flex5 {
+        .flex4 {
+            .footer-flex {
+                .mobileflex {
+                    .cards {
+                        display: flex;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.gap-0-40 {
+    gap: 0 40px;
+}
+
+.gap-0-16 {
+    gap: 0 16px;
+}
+
+.gap-0-50 {
+    gap: 0 50px;
+}
+
+@media (max-width: 414px) {
+    .mgap-30-0 {
+        gap: 30px 0;
+    }
+    .mgap-16-0 {
+        gap: 16px 0;
+    }
+    .mgap-50-0 {
+        gap: 50px 0;
+    }
+}
+
+@media (max-width: 414px) {
+    .flex1 {
+      flex-direction: column;
+      left: 20px;
+      align-items: flex-start;
+    }
+    .section1 {
+        padding: 248px 20px 203px 20px;
+      }
+    .card {
+        height: 595px;
+        width: 374px;
+    }
+    .flex5 {
+        .mobileflex {
+            .footer-flex {
+                .footer-flex2 {
+                    .cards {
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+}
