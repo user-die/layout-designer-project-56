@@ -183,7 +183,7 @@
     align-items: flex-start;
   }
   .section1 {
-    padding: 248px 20px 203px 20px;
+    padding: 248px 20px 203px;
   }
   .card {
     height: 595px;
@@ -282,7 +282,7 @@ body {
 }
 
 .mmr-451 {
-  margin-right: 31.3194444444vw;
+  margin-right: 31.3194vw;
 }
 
 .search {
