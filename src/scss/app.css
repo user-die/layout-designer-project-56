@@ -255,7 +255,6 @@ body {
   text-align: center;
 }
 
-/*Header*/
 .flex5 {
   display: flex;
 }
@@ -314,7 +313,6 @@ body {
     margin-top: 2px;
   }
 }
-/*page-description*/
 .section1 {
   display: flex;
   flex-direction: column;
@@ -367,7 +365,7 @@ body {
 
 @media (max-width: 414px) {
   .section1 {
-    padding: 248px 20px 203px 20px;
+    padding: 248px 20px 203px;
   }
   .button1 {
     width: 374px;
@@ -379,13 +377,12 @@ body {
     margin-right: 0;
   }
 }
-/*Pricing*/
 .section2 {
-  padding: 100px 20px 0 20px;
+  padding: 100px 20px 0;
 }
 
 .section3 {
-  padding: 96px 20px 0 20px;
+  padding: 96px 20px 0;
 }
 
 .cards {
@@ -467,7 +464,7 @@ body {
     font-size: 16px;
   }
   .section3 {
-    padding: 99px 20px 0 20px;
+    padding: 99px 20px 0;
   }
   .height598 {
     height: 596px;
@@ -480,9 +477,8 @@ body {
     height: 596px;
   }
 }
-/*News section*/
 .section4 {
-  padding: 100px 20px 0 20px;
+  padding: 100px 20px 0;
 }
 
 .columns {
@@ -498,7 +494,7 @@ body {
 }
 
 .margin4 {
-  margin: 48px 0 65px 0;
+  margin: 48px 0 65px;
 }
 
 .image4 {
@@ -508,7 +504,7 @@ body {
 .fs30 {
   font-size: 30px;
   text-transform: capitalize;
-  color: #ffffff;
+  color: #fff;
   font-weight: 400;
 }
 
@@ -591,7 +587,6 @@ body {
     padding: 99px 20px 0 20px;
   }
 }
-/* Mobile section */
 .mobileflex {
   display: flex;
 }
@@ -629,9 +624,8 @@ body {
     margin-right: auto;
   }
 }
-/*Artist. First section*/
 .section6 {
-  padding: 250px 120px 223px 120px;
+  padding: 250px 120px 223px;
   background-image: url(../images/Morten\ Harket.png);
   background-position: center;
   background-size: cover;
@@ -668,9 +662,8 @@ body {
     margin-top: 1.5rem;
   }
 }
-/* Popular tracks */
 .section7 {
-  padding: 100px 20px 0 20px;
+  padding: 100px 20px 0;
 }
 
 .popular-track {
@@ -709,24 +702,23 @@ body {
 
 @media (max-width: 414px) {
   .section7 {
-    padding: 100px 20px 0 20px;
+    padding: 100px 20px 0;
   }
   .mr331 {
     margin-right: 144px;
   }
 }
-/* Footer */
 footer {
   max-width: 1240px;
-  padding: 62px 120px 49px 120px;
-  margin: 0 0;
+  padding: 62px 120px 49px;
+  margin: 0;
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
 footer > span > div > h2 {
   font-size: 18px;
   line-height: 27px;
-  margin: 0 0 15px 0;
+  margin: 0 0 15px;
 }
 
 footer div {
@@ -765,7 +757,7 @@ li > a {
 
 @media (max-width: 414px) {
   footer > span > div > h2 {
-    margin: 0 0 16px 0;
+    margin: 0 0 16px;
   }
   .footer-flex {
     flex-direction: column;
@@ -779,7 +771,6 @@ li > a {
     padding: 62px 20px 47px 20px;
   }
 }
-/*Discography */
 .gap {
   gap: 25px 50px;
 }
@@ -810,7 +801,6 @@ li > a {
     height: 233px;
   }
 }
-/* Similar section */
 .flex4 {
   display: flex;
 }
