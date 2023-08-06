@@ -155,7 +155,7 @@
 .section1 {
   padding-top: 200px;
   padding-bottom: 200px;
-  background: url(../images/banner.png);
+  background: "url(../images/banner.png)";
   background-position: center;
   background-size: cover;
 }
@@ -195,12 +195,12 @@
 }
 @font-face {
   font-family: Roboto, sans-serif;
-  src: url(../fonts/Roboto-Regular.ttf);
+  src: "url(../fonts/Roboto-Regular.ttf)";
   font-weight: normal;
 }
 @font-face {
   font-family: Roboto, sans-serif;
-  src: url(../fonts/Roboto-Bold.ttf);
+  src: "url(../fonts/Roboto-Bold.ttf)";
   font-weight: bold;
 }
 :root {
@@ -555,7 +555,7 @@ body {
     flex-direction: column;
   }
   .margin4 {
-    margin: 48px 0 64px 0;
+    margin: 48px 0 64px;
   }
   .image4 {
     width: 374px;
@@ -584,7 +584,7 @@ body {
     font-weight: 400;
   }
   .section4 {
-    padding: 99px 20px 0 20px;
+    padding: 99px 20px 0;
   }
 }
 .mobileflex {
@@ -768,7 +768,7 @@ li > a {
     gap: 16px 0;
   }
   footer {
-    padding: 62px 20px 47px 20px;
+    padding: 62px 20px 47px;
   }
 }
 .gap {
