@@ -30,7 +30,7 @@ $margin-right: (16 24 90) ;
 }
 @include margin-r ($margin-right);
 
-$margin-bottom: (0 1 17 42 48 51 64 100 200) ;
+$margin-bottom: (0 1 17 42 48 50 64 100 200) ;
 @mixin margin-b ($margin-bottom) {
     @each $mb in $margin-bottom {
         .mb-#{$mb} {
