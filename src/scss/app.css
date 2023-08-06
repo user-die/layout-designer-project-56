@@ -319,7 +319,7 @@ body {
   align-items: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background: url(../images/banner.png);
+  background: url("../images/banner.png");
   background-position: center;
   background-size: cover;
 }
@@ -419,19 +419,19 @@ body {
 }
 
 .background1 {
-  background: url(../images/subscribe_1.png);
+  background: url("../images/subscribe_1.png");
   background-repeat: no-repeat;
   background-size: 376px;
 }
 
 .background2 {
-  background: url(../images/subscribe_2.png);
+  background: url("../images/subscribe_2.png");
   background-repeat: no-repeat;
   background-size: 376px;
 }
 
 .background3 {
-  background: url(../images/subscribe_3.png);
+  background: url("../images/subscribe_3.png");
   background-repeat: no-repeat;
   background-size: 376px;
 }
@@ -626,7 +626,7 @@ body {
 }
 .section6 {
   padding: 250px 120px 223px;
-  background-image: url(../images/Morten\ Harket.png);
+  background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
 }
