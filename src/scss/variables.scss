@@ -58,7 +58,7 @@ $media-margin-bottom: (0 3 16 17 49 199) ;
 @mixin media-margin-b ($media-margin-bottom) {
     @each $mmb in $media-margin-bottom {
         @media (max-width:414px) {
-            .mmt-#{$mmb} {
+            .mmb-#{$mmb} {
                 margin-bottom: $mmb + px;
             }
         }
