@@ -1,4 +1,5 @@
 $margin-top: (0 3 16 17 18 24 31 64);
+
 @mixin margin-t($margin-top) {
   @each $mt in $margin-top {
     .mt-#{$mt} {
@@ -6,6 +7,7 @@ $margin-top: (0 3 16 17 18 24 31 64);
     }
   }
 }
+
 @include margin-t($margin-top);
 
 $margin-left: (15);
@@ -16,9 +18,11 @@ $margin-left: (15);
     }
   }
 }
+
 @include margin-l($margin-left);
 
 $margin-right: (16 24 90);
+
 @mixin margin-r($margin-right) {
   @each $mr in $margin-right {
     .mr-#{$mr} {
@@ -26,9 +30,11 @@ $margin-right: (16 24 90);
     }
   }
 }
+
 @include margin-r($margin-right);
 
 $margin-bottom: (0 1 17 42 48 50 64 100 200);
+
 @mixin margin-b($margin-bottom) {
   @each $mb in $margin-bottom {
     .mb-#{$mb} {
@@ -36,11 +42,13 @@ $margin-bottom: (0 1 17 42 48 50 64 100 200);
     }
   }
 }
+
 @include margin-b($margin-bottom);
 
 /* Margins for media */
 
 $media-margin-top: (0 15 16);
+
 @mixin media-margin-t($media-margin-top) {
   @each $mmt in $media-margin-top {
     @media (max-width: 414px) {
@@ -50,9 +58,11 @@ $media-margin-top: (0 15 16);
     }
   }
 }
+
 @include media-margin-t($media-margin-top);
 
 $media-margin-bottom: (0 3 16 17 49 199);
+
 @mixin media-margin-b($media-margin-bottom) {
   @each $mmb in $media-margin-bottom {
     @media (max-width: 414px) {
@@ -62,4 +72,5 @@ $media-margin-bottom: (0 3 16 17 49 199);
     }
   }
 }
+
 @include media-margin-b($media-margin-bottom);
