@@ -709,7 +709,7 @@ body {
   }
 }
 footer {
-  max-width: 1240px;
+  width: 100%;
   padding: 62px 120px 49px;
   margin: 0;
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
